@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site Simples - Formulário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Formulário</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="page2.html">Página 2</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Formulário</h2>
+        <form action="processar_form.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
